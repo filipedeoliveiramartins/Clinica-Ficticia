@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando seu primeiro site completo com HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li><br>
+                <li><a href="sobre.html">Sobre a Clínica</a></li><br>
+                <li><a href="horario.html">Horário de Atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="fictional clinic Logo - Original - 5000x5000.png" width="150px" height="150px">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsa suscipit provident, minima aliquid accusantium. Iusto delectus et, quaerat asperiores unde repellendus commodi id dicta obcaecati architecto placeat, autem harum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta similique laudantium ex suscipit illum aspernatur! Sequi odit autem natus vero ex tenetur, rerum ullam ut inventore possimus, eos nam tempora!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sed, voluptatibus qui cupiditate quas. Veritatis cum maxime necessitatibus at id ea beatae, praesentium in! Cupiditate rem beatae sint qui!</p>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h4>Contact information</h4>
+                <li>Phone number (00)000-00000</li>
+                <li>Adress: Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15564.323556116415!2d-122.4312975!3d37.7768022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDInMzYuNCJOIDEyMjLCsDU2JzI2LjkiRQ!5e0!3m2!1spt-BR!2sbr!4v1611023896878!5m2!1spt-BR!2sbr" width="100" height="100" style="border:0;" allowfullscreen="" ></iframe>
+                
+                <h3>Contact Us</h3>
+                <form name="contact" method="post" onsubmit="alert('Formulário Enviado com Sucesso!')">
+                    <label>Name:</label><input type="text" name="name"><br>
+                    <label>E-mail:</label><input type="email" name="email"><br>
+                    <label>Subject:</label><input type="text" name="subject"><br><br>
+                    <label>Message:</label><br>
+                    <textarea name="message" cols="15" rows="5"></textarea><br>
+                    
+                    <button type="submit">Send</button>
+                    <button type="reset">Clear</button>
+
+                </form>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
